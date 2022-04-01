@@ -1,0 +1,10 @@
+.orta-bolum{
+    background:url("/backgroundPhotos/pexels-pixabay-262508_1224x1000.jpg");
+    background-repeat:no-repeat;
+    overflow: hidden;
+    height: 1000px;
+    margin: 0;
+    padding: 0;
+    border: 2px solid;
+}
+
