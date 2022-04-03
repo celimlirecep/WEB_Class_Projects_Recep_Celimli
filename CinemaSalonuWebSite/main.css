@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Palette+Mosaic&display=swap');
+
+.sirketAdi{
+    
+    font-family: 'Palette Mosaic', cursive;
+    color: white !important;
+    font-size: 40px !important;
+}
+
+.basliklar{
+    font-weight: bold;
+    color: white !important;
+}
+
+.cardBoyutu{
+    height: 300px !important;
+}
+
+.footAlanı{
+    height: 300px;
+ 
+}
+
+.araButonu{
+    color: white !important;
+    border: 3px !important;
+    
+}
+#aciklama{
+    display:none;
+}
+
+.kalp{
+    font-size: xx-large;
+    color: black;
+}
+
+.kalp:hover{
+color: red;
+cursor: pointer;
+}
+.kalp:active{
+    color:red;
+}
