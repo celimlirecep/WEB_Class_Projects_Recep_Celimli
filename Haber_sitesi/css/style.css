@@ -1,0 +1,68 @@
+.baslik {
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: #272829;
+}
+footer{
+    background-color: #272829;
+    height: 300px;
+}
+
+.alt-baslik {
+   
+   
+    background-color: #f06730;
+    
+}
+.alt-baslik-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top{
+    width: 10px;
+    height: 10px;
+    border: 1px;
+    border-radius: 100%;
+    background-color: orangered;
+}
+.amblem-alt-baslik a{
+    text-decoration: none !important;
+    color: white !important;
+    font-weight: bold;
+    font-size: 17px;
+    height:40px ;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+    
+}
+div h1 img{
+    border-radius: 100%;
+}
+
+
+
+
+.baslik-ikonlar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+.fa-magnifying-glass {
+    font-size: x-large;
+}
+.fa-bars{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+section{
+    background-color: white;
+}
