@@ -39,9 +39,14 @@ footer{
    align-items: center;
     
 }
-div h1 img{
+div a img{
     border-radius: 100%;
+    cursor: pointer;
 }
+.ikinciBolumYukseklik{
+    height: 550px;
+}
+
 
 
 
