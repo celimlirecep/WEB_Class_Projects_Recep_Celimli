@@ -1,0 +1,24 @@
+@model EF_Code_First_01.Models.Entities.Author
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1></h1>
+
+<div class="container">
+    <form asp-action="Create">
+       <input type="hidden" asp-for="AuthorId">
+ 
+        <label >Yazar Adı</label>
+        <input type="text" class="form-control" asp-for="AuthorName"  >
+        <br>
+
+        <label >Yazar Soyadı</label>
+        <input type="text" class="form-control" asp-for="AuthorSurname">
+        <br>
+        <label >Yazar DogumTarihi</label>
+        <input id="datepicker" type="date" class="" name="begin" value="@Model.AuthorDateOfBirth"  min="1997-01-01" max="2030-12-31" asp-for="AuthorDateOfBirth">
+        <br>
+        <input type="submit" class="btn btn-warning" value="Kaydet">
+
+    </form>

@@ -1,0 +1,41 @@
+@model List<EF_Code_First_01.Models.Entities.Category>
+@{
+    ViewData["Title"] = "Create";
+
+
+
+}
+
+<a class="btn btn-primary" asp-area="" asp-controller="Category" asp-action="Create">Kategori oluştur</a>
+<br>
+
+<div class="container row">
+    
+            @foreach (var kategori in Model)
+            {
+
+                if (kategori.IsDeleted == false)
+                {
+
+                    <div class="card col-md-3 mx-5" style="width: 18rem;">
+                        <img src="https://www.cihatayaz.com/wp-content/uploads/2016/06/hevesli-kitap-okumak-600x398.jpg"
+                    class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="text-center">@kategori.CategoryId</h2>
+                            <h5 class="card-title">@kategori.CategoryName</h5>
+                            
+                     
+                               <a class="btn btn-success" asp-area="" asp-controller="Category" asp-action="Edit"
+                        asp-route-id="@kategori.CategoryId">Düzenle</a>
+                            <a class="btn btn-danger" asp-area="" asp-controller="Category" asp-action="Delete"
+                        asp-route-id="@kategori.CategoryId">Sil</a>
+                            <a class="btn btn-info" asp-area="" asp-controller="Category" asp-action="Details"
+                        asp-route-id="@kategori.CategoryId">Detay</a>
+                        </div>
+                    </div>
+                   
+                }
+
+            }
+        
+</div>

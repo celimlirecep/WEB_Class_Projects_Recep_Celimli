@@ -1,0 +1,43 @@
+@model List<EF_Code_First_01.Models.Entities.Author>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="d-flex justify-content-between">
+<h1>Yazarlar sayfası</h1>
+
+<a class="btn btn-primary align-item-center"  asp-controller="Author" asp-action="Create">Kategori oluştur</a>
+</div>
+
+<br>
+
+<div class="container row">
+    
+            @foreach (var yazar in Model)
+            {
+
+                if (yazar.IsDeleted == false)
+                {
+
+                    <div class="card col-12 col-md-4 " style="width: 18rem;">
+                        <img src="https://kacrm.datamaticsbpm.com/assets/img/user-img-icon.png"
+                    class="card-img-top">
+                        <div class="card-body">
+                            <h2 class="text-center">@yazar.AuthorId</h2>
+                            <h5 class="card-title">@yazar.AuthorName</h5>
+                            
+                       
+                               <a class="btn btn-success" asp-area="" asp-controller="Author" asp-action="Edit"
+                        asp-route-id="@yazar.AuthorId">Düzenle</a>
+                            <a class="btn btn-danger" asp-area="" asp-controller="Author" asp-action="Delete"
+                        asp-route-id="@yazar.AuthorId">Sil</a>
+                            <a class="btn btn-info" asp-area="" asp-controller="Author" asp-action="Details"
+                        asp-route-id="@yazar.AuthorId">Detay</a>
+                        </div>
+                    </div>
+                   
+                }
+
+            }
+        
+</div>

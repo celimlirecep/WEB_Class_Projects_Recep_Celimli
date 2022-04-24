@@ -1,0 +1,28 @@
+@model EF_Code_First_01.Models.Entities.Category
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<h1>Kategori Oluşturma Sayfası</h1>
+
+<div class="container">
+    <form asp-action="Create">
+       
+ 
+        <label >Kategori Adı</label>
+        <input type="input" class="form-control" asp-for="CategoryName" >
+        <br>
+
+        <label >Kategori Tanımı</label>
+        <input type="input" class="form-control" asp-for="CategoryDescription">
+        <br>
+
+        <input type="submit" class="btn btn-warning" value="Kaydet">
+
+    </form>
+
+</div>
+
+
+

@@ -1,0 +1,30 @@
+@model EF_Code_First_01.Models.Entities.Author
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<h1>Create Sayfası</h1>
+
+
+
+<div class="container">
+    <form asp-action="Create">
+       
+ 
+        <label >Yazar Adı</label>
+        <input type="text" class="form-control" asp-for="AuthorName" >
+        <br>
+
+        <label >Yazar Soyadı</label>
+        <input type="text" class="form-control" asp-for="AuthorSurname">
+        <br>
+        <label >Yazar DogumTarihi</label>
+        <input type="date" class="form-control" name="begin"  min="1997-01-01" max="2030-12-31" asp-for="AuthorDateOfBirth">
+
+        <input type="submit" class="btn btn-warning" value="Kaydet">
+
+    </form>
+
+</div>
+
