@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\EF_Code_First_01.csproj",
+  "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\EF_Code_First_01.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,78 +15619,98 @@
   "RootNamespace": "EF_Code_First_01",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Category\\Create.cshtml",
-      "TargetPath": "Views\\Category\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Author\\Index.cshtml",
-      "TargetPath": "Views\\Author\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Category\\Details.cshtml",
-      "TargetPath": "Views\\Category\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Category\\Index.cshtml",
-      "TargetPath": "Views\\Category\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Category\\Delete.cshtml",
-      "TargetPath": "Views\\Category\\Delete.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Category\\Edit.cshtml",
-      "TargetPath": "Views\\Category\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Author\\Edit.cshtml",
-      "TargetPath": "Views\\Author\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Author\\Create.cshtml",
-      "TargetPath": "Views\\Author\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Member\\Index.cshtml",
+      "TargetPath": "Views\\Member\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Author\\Create.cshtml",
+      "TargetPath": "Views\\Author\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Category\\Index.cshtml",
+      "TargetPath": "Views\\Category\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Category\\Edit.cshtml",
+      "TargetPath": "Views\\Category\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Category\\Details.cshtml",
+      "TargetPath": "Views\\Category\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Member\\Details.cshtml",
+      "TargetPath": "Views\\Member\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Home\\Privacy.cshtml",
+      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Category\\Create.cshtml",
+      "TargetPath": "Views\\Category\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Author\\Details.cshtml",
+      "TargetPath": "Views\\Author\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Author\\Edit.cshtml",
+      "TargetPath": "Views\\Author\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Author\\Delete.cshtml",
+      "TargetPath": "Views\\Author\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Category\\Delete.cshtml",
+      "TargetPath": "Views\\Category\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Author\\Index.cshtml",
+      "TargetPath": "Views\\Author\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],

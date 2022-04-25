@@ -1,0 +1,19 @@
+@model EF_Code_First_01.Models.Entities.Author
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div class="card" style="width: 18rem;">
+  <img src="https://www.cihatayaz.com/wp-content/uploads/2016/06/hevesli-kitap-okumak-600x398.jpg" class="card-img-top" >
+  <div class="card-body">
+      <h2 class="text-center">@Model.AuthorName @Model.AuthorSurname</h2>
+    <h5 class="card-title">Yazarın Doğum Günü</h5>
+    <p class="card-text">@Model.AuthorDateOfBirth</p>
+    <a  class="btn btn-primary" asp-controller="Category" asp-action="Index" >Geri Dön</a>
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="AuthorId">
+   <input type="submit" class="btn btn-danger" value="Sil">
+    </form>
+ 
+  </div>
+</div>

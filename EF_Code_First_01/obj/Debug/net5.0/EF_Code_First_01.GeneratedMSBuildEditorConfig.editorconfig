@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = EF_Code_First_01
-build_property.ProjectDir = C:\Users\recep\OneDrive\Masaüstü\Entity_Framework_Mvc_Project\EF_Code_First_01\
+build_property.ProjectDir = c:\Users\recep\OneDrive\Masaüstü\WEB_Class_Projects\EF_Code_First_01\

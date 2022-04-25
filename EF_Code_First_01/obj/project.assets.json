@@ -5803,11 +5803,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\EF_Code_First_01.csproj",
+      "projectUniqueName": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\EF_Code_First_01.csproj",
       "projectName": "EF_Code_First_01",
-      "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\EF_Code_First_01.csproj",
+      "projectPath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\EF_Code_First_01.csproj",
       "packagesPath": "C:\\Users\\recep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\Entity_Framework_Mvc_Project\\EF_Code_First_01\\obj\\",
+      "outputPath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\recep\\AppData\\Roaming\\NuGet\\NuGet.Config",
