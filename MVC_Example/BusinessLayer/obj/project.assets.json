@@ -8,20 +8,25 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\recep\\.nuget\\packages\\": {}
+    "C:\\Users\\Engin Niyazi Ergül\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\BusinessLayer\\BusinessLayer.csproj",
+      "projectUniqueName": "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\BusinessLayer\\BusinessLayer.csproj",
       "projectName": "BusinessLayer",
-      "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\BusinessLayer\\BusinessLayer.csproj",
-      "packagesPath": "C:\\Users\\recep\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\BusinessLayer\\obj\\",
+      "projectPath": "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\BusinessLayer\\BusinessLayer.csproj",
+      "packagesPath": "C:\\Users\\Engin Niyazi Ergül\\.nuget\\packages\\",
+      "outputPath": "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\BusinessLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\recep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Engin Niyazi Ergül\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -10,3 +10,15 @@ C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Deb
 C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
 C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
 C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
+C:\BAU\Projects\Student_Projects\Web_6\RecepCelimli\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb

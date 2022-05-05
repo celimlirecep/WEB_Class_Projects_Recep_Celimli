@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace DataAccessLayer.Migrations
 {
-    public partial class FirstDatabaseCreate : Migration
+    public partial class m1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -79,8 +79,8 @@ namespace DataAccessLayer.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     HeadingName = table.Column<string>(type: "nvarchar(50)", maxLength: 50, nullable: true),
                     HeadingDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    CategoryId = table.Column<int>(type: "int", nullable: false),
-                    WriterId = table.Column<int>(type: "int", nullable: false)
+                    CategoryId = table.Column<int>(type: "int", nullable: true),
+                    WriterId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -90,13 +90,13 @@ namespace DataAccessLayer.Migrations
                         column: x => x.CategoryId,
                         principalTable: "Categories",
                         principalColumn: "CategoryId",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
                         name: "FK_Headings_Writers_WriterId",
                         column: x => x.WriterId,
                         principalTable: "Writers",
                         principalColumn: "WriterId",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.SetNull);
                 });
 
             migrationBuilder.CreateTable(
@@ -106,9 +106,9 @@ namespace DataAccessLayer.Migrations
                     ContentId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     ContentValue = table.Column<string>(type: "nvarchar(1000)", maxLength: 1000, nullable: true),
-                    ContetntDate = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    HeadingId = table.Column<int>(type: "int", nullable: false),
-                    WriterID = table.Column<int>(type: "int", nullable: false)
+                    ContentDate = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    HeadingId = table.Column<int>(type: "int", nullable: true),
+                    WriterId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -118,13 +118,13 @@ namespace DataAccessLayer.Migrations
                         column: x => x.HeadingId,
                         principalTable: "Headings",
                         principalColumn: "HeadingId",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.Restrict);
                     table.ForeignKey(
-                        name: "FK_Contents_Writers_WriterID",
-                        column: x => x.WriterID,
+                        name: "FK_Contents_Writers_WriterId",
+                        column: x => x.WriterId,
                         principalTable: "Writers",
                         principalColumn: "WriterId",
-                        onDelete: ReferentialAction.Cascade);
+                        onDelete: ReferentialAction.SetNull);
                 });
 
             migrationBuilder.CreateIndex(
@@ -133,9 +133,9 @@ namespace DataAccessLayer.Migrations
                 column: "HeadingId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Contents_WriterID",
+                name: "IX_Contents_WriterId",
                 table: "Contents",
-                column: "WriterID");
+                column: "WriterId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Headings_CategoryId",

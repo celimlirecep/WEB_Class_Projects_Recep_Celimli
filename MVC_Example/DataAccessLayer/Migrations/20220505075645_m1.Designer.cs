@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DataAccessLayer.Migrations
 {
     [DbContext(typeof(Context))]
-    [Migration("20220503154603_mig11")]
-    partial class mig11
+    [Migration("20220505075645_m1")]
+    partial class m1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -116,14 +116,14 @@ namespace DataAccessLayer.Migrations
                     b.Property<int?>("HeadingId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("WriterID")
+                    b.Property<int>("WriterId")
                         .HasColumnType("int");
 
                     b.HasKey("ContentId");
 
                     b.HasIndex("HeadingId");
 
-                    b.HasIndex("WriterID");
+                    b.HasIndex("WriterId");
 
                     b.ToTable("Contents");
                 });
@@ -197,7 +197,9 @@ namespace DataAccessLayer.Migrations
 
                     b.HasOne("EntityLayer.Concreate.Writer", "Writer")
                         .WithMany("Contents")
-                        .HasForeignKey("WriterID");
+                        .HasForeignKey("WriterId")
+                        .OnDelete(DeleteBehavior.SetNull)
+                        .IsRequired();
 
                     b.Navigation("Heading");
 
@@ -212,7 +214,8 @@ namespace DataAccessLayer.Migrations
 
                     b.HasOne("EntityLayer.Concreate.Writer", "Writer")
                         .WithMany("Headings")
-                        .HasForeignKey("WriterId");
+                        .HasForeignKey("WriterId")
+                        .OnDelete(DeleteBehavior.SetNull);
 
                     b.Navigation("Category");
 

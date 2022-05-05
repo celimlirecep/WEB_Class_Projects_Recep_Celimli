@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\DataAccessLayer\\DataAccessLayer.csproj": {}
+    "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\DataAccessLayer\\DataAccessLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\DataAccessLayer\\DataAccessLayer.csproj": {
+    "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\DataAccessLayer\\DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\DataAccessLayer\\DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\DataAccessLayer\\DataAccessLayer.csproj",
         "projectName": "DataAccessLayer",
-        "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\DataAccessLayer\\DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\recep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\DataAccessLayer\\obj\\",
+        "projectPath": "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\DataAccessLayer\\DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Engin Niyazi Ergül\\.nuget\\packages\\",
+        "outputPath": "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\recep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Engin Niyazi Ergül\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -28,8 +32,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\EntityLayer\\EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\EntityLayer\\EntityLayer.csproj"
+              "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\EntityLayer\\EntityLayer.csproj": {
+                "projectPath": "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\EntityLayer\\EntityLayer.csproj"
               }
             }
           }
@@ -80,22 +84,26 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\EntityLayer\\EntityLayer.csproj": {
+    "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\EntityLayer\\EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\EntityLayer\\EntityLayer.csproj",
+        "projectUniqueName": "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\EntityLayer\\EntityLayer.csproj",
         "projectName": "EntityLayer",
-        "projectPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\EntityLayer\\EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\recep\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\MVC_Example\\MVC_Example\\EntityLayer\\obj\\",
+        "projectPath": "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\EntityLayer\\EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\Engin Niyazi Ergül\\.nuget\\packages\\",
+        "outputPath": "C:\\BAU\\Projects\\Student_Projects\\Web_6\\RecepCelimli\\MVC_Example\\EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\recep\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Engin Niyazi Ergül\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -156,7 +164,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }
