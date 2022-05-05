@@ -20,7 +20,7 @@ namespace EF_Code_First_01.Controllers
        
         public IActionResult Index()
         {
-            return View();
+            return View(_context.Members.ToList());
         }
         public IActionResult Create(){
             return View();

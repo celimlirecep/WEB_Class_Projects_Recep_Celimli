@@ -1,0 +1,36 @@
+@model EF_Code_First_01.Models.Entities.Member
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<div class="container">
+    <form asp-action="Create">
+       
+ 
+        <label >Üye Adı</label>
+        <input type="input" class="form-control" asp-for="MemberName" >
+        <br>
+
+        <label >Üye Soyadı</label>
+        <input type="input" class="form-control" asp-for="MemberSurname">
+        <br>
+         
+        <label >Üye DogumTarihi</label>
+        <input type="date" class="form-control" class="w-25" asp-for="MemberOfBirth">
+  <br>
+  <label >Üye Telefon Numarası</label>
+        <input type="input" class="form-control" asp-for="MemberPhoneNumber">
+        <br>
+         <label >Üye Mail Adresi</label>
+        <input type="input" class="form-control" asp-for="MemberMail">
+        <br>
+    
+         <label >Üye Meslek</label>
+        <input type="input" class="form-control" asp-for="MemberJob">
+        <br>
+        <input type="submit" class="btn btn-warning" value="Kaydet">
+
+    </form>
+
+</div>

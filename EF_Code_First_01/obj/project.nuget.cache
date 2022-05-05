@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yRRVMcA/0ipkb6FrvfdW2GQDzn1fd69aLnkkdLb0A0XW1xNmZQsI8cPHJkhlCTgkPRhTYd5CGTGgxItIjQT8tw==",
+  "dgSpecHash": "Mk0fXrw2V/Fz8loE5Dwmf65xDhTyUyvAOwp7XefZD46FgQvaKzfRYbfIqKiahnIyRTvhvDd3lFKMBzAm4gzW/Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\EF_Code_First_01.csproj",
+  "projectFilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\EF_Code_First_01.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\recep\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\recep\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

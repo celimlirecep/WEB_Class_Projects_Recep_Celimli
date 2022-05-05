@@ -1,0 +1,12 @@
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\bin\Debug\net5.0\BusinessLayer.deps.json
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\bin\Debug\net5.0\BusinessLayer.dll
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\bin\Debug\net5.0\ref\BusinessLayer.dll
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\bin\Debug\net5.0\BusinessLayer.pdb
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.dll
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\ref\BusinessLayer.dll
+C:\Users\recep\OneDrive\Masaüstü\MVC_Example\MVC_Example\BusinessLayer\obj\Debug\net5.0\BusinessLayer.pdb

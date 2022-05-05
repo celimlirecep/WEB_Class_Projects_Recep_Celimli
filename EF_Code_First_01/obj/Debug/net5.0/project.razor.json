@@ -15639,6 +15639,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Member\\Delete.cshtml",
+      "TargetPath": "Views\\Member\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Category\\Index.cshtml",
       "TargetPath": "Views\\Category\\Index.cshtml",
       "FileKind": "mvc"
@@ -15656,6 +15661,11 @@
     {
       "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Category\\Details.cshtml",
       "TargetPath": "Views\\Category\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Member\\Edit.cshtml",
+      "TargetPath": "Views\\Member\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15686,6 +15696,11 @@
     {
       "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Author\\Edit.cshtml",
       "TargetPath": "Views\\Author\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\recep\\OneDrive\\Masaüstü\\WEB_Class_Projects\\EF_Code_First_01\\Views\\Member\\Create.cshtml",
+      "TargetPath": "Views\\Member\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
